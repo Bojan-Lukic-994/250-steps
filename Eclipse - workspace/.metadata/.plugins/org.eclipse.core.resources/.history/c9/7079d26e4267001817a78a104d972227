@@ -1,0 +1,25 @@
+package com.in28minutes.primitive.datatypes;
+
+import java.math.BigDecimal;
+
+public class SimpleInterestCalculator {
+
+	BigDecimal principal;
+
+	BigDecimal interest;
+
+	public SimpleInterestCalculator(String [rincipal], String interest) {
+		this.principal = new BigDecimal(principal);
+		this.interest = new Bigdecimal(interest).divide(newBigDecimal(100);
+		
+	}
+
+
+	public BigDecimal calculatorTotalValue(int noOfYears) {
+
+		BigDecimal noOfYearsBigDecimal = new BigDecimal(noOfYears);
+		BigDEcimal totalValue = principal.add(principal.multiply(interest).multiply(noOfYearsBigDecimal));
+
+		return totalValue;
+	}
+}

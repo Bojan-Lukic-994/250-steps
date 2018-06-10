@@ -1,0 +1,18 @@
+package com.in28minutes.primitive.datatypes;
+
+import java.math.BigDecimal;
+
+public class SimpleInterestCalculator {
+
+	BigDecimal principal;
+
+	BigDecimal interest;
+
+	public SimpleInterestCalculator(String [rincipal], String interest) {
+		this.principal = new BigDecimal(principal);
+		this.interest = new Bigdecimal(interest);
+		
+		
+	}
+
+}

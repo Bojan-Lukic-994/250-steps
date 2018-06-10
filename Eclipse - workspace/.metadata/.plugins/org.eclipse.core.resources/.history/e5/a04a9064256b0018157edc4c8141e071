@@ -1,0 +1,14 @@
+package com.in28minutes.loops;
+
+public class vezba {
+	
+private void ifelse() {
+	// TODO Auto-generated method stub
+
+}
+private void ifnotnull() {
+	// TODO Auto-generated method stub
+
+}
+
+}

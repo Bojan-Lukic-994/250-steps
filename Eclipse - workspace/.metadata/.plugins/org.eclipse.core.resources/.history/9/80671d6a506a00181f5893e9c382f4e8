@@ -1,0 +1,11 @@
+package com.in28minutes.ifstatement.exaples;
+
+import java.math.BigDecimal;
+
+public class EclipseTricks {
+
+	public static void main(String[] args) {
+		BigDecimal db = new BigDecimal(25);
+	}
+	
+}
