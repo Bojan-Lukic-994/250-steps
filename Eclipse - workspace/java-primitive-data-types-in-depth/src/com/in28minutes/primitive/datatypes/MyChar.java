@@ -61,16 +61,22 @@ public class MyChar {
 	}
 
 	public static void printLowerCaseAlphabets() {
+
 		// 'a' to 'z'
 		for (char ch = 'a'; ch <= 'z'; ch++) {
 			System.out.println(ch);
 		}
 	}
 
+	// Print uppercase alphabet
 	public static void printUpperCaseAlphabet() {
+
 		// 'A' to 'Z'
 		for (char ch = 'A'; ch <= 'Z'; ch++) {
 			System.out.println(ch);
 		}
+
+		// New func
+		// return 5
 	}
 }
