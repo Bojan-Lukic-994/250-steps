@@ -24,6 +24,9 @@ public class MyChar {
 		if (ch == 'u' || ch == 'U') {
 			return true;
 		}
+		if (ch == 'z' || ch == 'Z') {
+			return true;
+		}
 
 		return false;
 	}
