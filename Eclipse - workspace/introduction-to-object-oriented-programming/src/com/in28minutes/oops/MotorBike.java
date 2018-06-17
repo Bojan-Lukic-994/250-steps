@@ -1,11 +1,11 @@
 package com.in28minutes.oops;
 
 public class MotorBike {
-
+	// state
 	private int speed;
 
+	// constructors
 	MotorBike() {
-
 		this(5);
 	}
 
@@ -14,6 +14,7 @@ public class MotorBike {
 
 	}
 
+	// behaviour
 	public int getSpeed() {
 		return speed;
 	}
