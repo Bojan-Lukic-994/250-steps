@@ -2,7 +2,7 @@ package com.in28minutes.firstjavaproject;
 
 public class MultiplicationTable {
 	void print() {
-		print(5);
+		print(6);
 	}
 	
     void print(int table) {

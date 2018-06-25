@@ -11,7 +11,6 @@ public class MotorBike {
 
 	MotorBike(int speed) {
 		this.speed = speed;
-
 	}
 
 	// behaviour
