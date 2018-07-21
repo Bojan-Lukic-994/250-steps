@@ -15,8 +15,7 @@ public class FPNumberRunner {
 
 	// prints the sum of all numbers
 	private static int fpSum(List<Integer> numbers) {
-		return numbers.stream().reduce(0,
-				(number1, number2) -> number1 + +number2);
+		return numbers.stream().reduce(0, (number1, number2) -> number1 + +number2);
 	}
 
 	// prints the sum of all numbers
