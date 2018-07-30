@@ -20,4 +20,5 @@
     <fullyQualifiedTypeName name="java.util.function.Function"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
 </qualifiedTypeNameHistroy>
