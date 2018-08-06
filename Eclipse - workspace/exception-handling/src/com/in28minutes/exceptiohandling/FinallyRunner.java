@@ -14,7 +14,6 @@ public class FinallyRunner {
 
 			int number = numbers[21];
 
-
 		scanner.close();
 
 	} catch(Exception e) {

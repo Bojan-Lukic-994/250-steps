@@ -6,13 +6,11 @@ public class ExceptionHandlingRunner {
 
 		method1();
 		System.out.println("Main ended");
-
 	}
 
 	private static void method1() {
 		method2();
 		System.out.println("Method1 ended");
-
 	}
 
 	private static void method2() {
