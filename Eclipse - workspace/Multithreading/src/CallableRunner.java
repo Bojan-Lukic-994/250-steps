@@ -13,7 +13,12 @@ class CallableTask implements Callable<String> {
 
 	@Override
 	public String call() throws Exception {
-		Thread.sleep(1000);
+		try {
+			Thread.sleep(1000);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return " Hello " + name;
 	}
 

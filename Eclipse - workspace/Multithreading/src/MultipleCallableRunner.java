@@ -18,7 +18,7 @@ public class MultipleCallableRunner {
 
 		// prints all tasks
 		for (Future<String> result : finalResults) {
-			System.out.println(result.get());
+			System.out.println(result);
 		}
 
 		executorService.shutdown();

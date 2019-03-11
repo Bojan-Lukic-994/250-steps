@@ -12,8 +12,9 @@ public class FPNumberRunner {
 		int sum = fpSum(numbers);
 		System.out.println(sum);
 	}
-
+ 
 	// prints the sum of all numbers
+	@SuppressWarnings("boxing")
 	private static int fpSum(List<Integer> numbers) {
 		return numbers.stream().reduce(0, (number1, number2) -> number1 + +number2);
 	}

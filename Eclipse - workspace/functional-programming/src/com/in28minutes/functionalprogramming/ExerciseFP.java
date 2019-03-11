@@ -10,7 +10,7 @@ public class ExerciseFP {
 	}
 
 	private static void printWithFP(List<Integer> list) {
-		list.stream().forEach(element -> System.out.println("number - " + element));
+		list.stream().forEach(element -> System.out.println(element));
 	}
 
 }
